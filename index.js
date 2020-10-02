@@ -15,18 +15,17 @@ inquirer.prompt([
         message: "Enter Description",
         name: "description"
     },
-    // {
-    // type: "checkbox",
-    //name: "table",
-    //message: "select to create table of contents ",
-    //  choices:[
-    
-//"(#installation)",
-//"(#usage)",
-//"(#credits),"
-//"(#license)""
-    // ]
-    //  },
+   {
+       type: "checkbox",
+       name: "languages",
+       message: "which Technologies were used on this project?",
+       choices:[
+           "HTML",
+           "CSS",
+           "JavaScript",
+           "Node JS",
+       ]
+   },
     {
         type: "input",
         name: "installation",
@@ -41,7 +40,7 @@ inquirer.prompt([
 {
     type: "input",
     name: "Credist",
-    message: "List your collaborators by addinf their GitHbu URL"
+    message: "List your collaborators by adding their GitHbu URL"
 
 },
 {
@@ -49,11 +48,21 @@ inquirer.prompt([
     name: "license",
     message: "which license would you like?",
     choices: [
-        "apache-2.0",
-        "MIT",
-        "GPL"
+        "https://img.shields.io/aur/license/android-studio",
+        "https://img.shields.io/apm/l/vim-mode?style=flat-square",
+        "https://img.shields.io/eclipse-marketplace/l/notepad4e"
 
     ]
+},
+{
+    type: "input",
+    name:"phone",
+    message: "What's your phone number?"
+},
+{
+    type: "input",
+    name:"email",
+    message: "what's your email address?"
 }
 
 
@@ -61,11 +70,24 @@ inquirer.prompt([
 
 
 
-]).then(function (answers) {
+]).then(function (answer) {
 
 
-    const generatedFile = generateMarkdow(answers)
+    const generatedFile = generateMarkdow(answer)
 
-    console.log(generatedFile);
+  
 
-})
+    fs.writeFile('README.md', generatedFile, function (err) {
+        if (err) {
+            return console.log(err);
+        }
+
+        console.log('Success!');
+    });
+
+
+
+
+
+});
+
