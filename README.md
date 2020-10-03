@@ -2,7 +2,7 @@
   # README-Generator
 
 ## Description 
-README-Generators would help users create a good README file by asking a series of questions about the project, this questions are all the neccesary elements a good REAME file needs.
+README-Generator would help users create a good README file by asking a series of questions about the project, this questions are all the neccesary elements a good REAME file needs.
 
 ## Technologies used on this Projects
 
