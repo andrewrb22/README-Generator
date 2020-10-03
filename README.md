@@ -2,11 +2,11 @@
   # README-Generator
 
 ## Description 
-README-Generators would help users create a good README file by asking a series of questions about the project, this questions are all the neccesary elements a good REAME file needs.
+README-Generator would help users create a good README file by asking a series of questions about the project, this questions are all the neccesary elements a good REAME file needs.
 
 ## Technologies used on this Projects
 
-
+JavaScript
 
 
 
@@ -25,11 +25,11 @@ npm i inquirer
 
 ## Usage 
 
-follow the questions and the README file would be create
+ open integrated terminal and type node index.js, follow the questions and the READEME file would be create it
 
 ## Credits
 
-undefined
+Andrew Rodriguez : https://github.com/andrewrb22
 
 
 ## License
@@ -136,7 +136,7 @@ undefined
   ## For any questions about this project feel free to contact me via:
    
   
-  Phone: 321 000 0000
+  Phone: (407)330-9648
   
   Email: andrewrb22@gmail.com
 

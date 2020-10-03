@@ -16,7 +16,7 @@ inquirer.prompt([
         name: "description"
     },
    {
-       type: "checkbox",
+       type: "list",
        name: "languages",
        message: "which Technologies were used on this project?",
        choices:[
@@ -39,7 +39,7 @@ inquirer.prompt([
 
 {
     type: "input",
-    name: "Credist",
+    name: "Credits",
     message: "List your collaborators by adding their GitHbu URL"
 
 },

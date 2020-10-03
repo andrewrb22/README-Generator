@@ -31,7 +31,7 @@ ${answer.usage}
 
 ## Credits
 
-${answer.credits}
+${answer.Credits}
 
 
 ## License
