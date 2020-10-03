@@ -1,16 +1,16 @@
 
-  # Project example
+  # README-Generator
 
 ## Description 
- aosidfjspodfiaprogians psidjfhwpifuhqwpirfu iwjfnpqiwufnpiqwrufn qpwijfnpqiweufnpiqweuf pwiuefnwpifuqw
+README-Generators would help users create a good README file by asking a series of questions about the project, this questions are all the neccesary elements a good REAME file needs.
 
-## Technolies used on this Projects
-
-Node JS
+## Technologies used on this Projects
 
 
 
-## Table of Contents (Optional)
+
+
+## Table of Contents
 
 If your README is very long, add a table of contents to make it easy for users to find what they need.
 
@@ -21,11 +21,11 @@ If your README is very long, add a table of contents to make it easy for users t
 
 ## Installation
 
-np i inquirer
+npm i inquirer
 
 ## Usage 
 
-aoidjoasidjosiad
+follow the questions and the README file would be create
 
 ## Credits
 
@@ -34,7 +34,7 @@ undefined
 
 ## License
 
-[![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)]
+![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)
 
 # Contributing:
   ## Contributor Covenant Code of Conduct
@@ -136,8 +136,8 @@ undefined
   ## For any questions about this project feel free to contact me via:
    
   
-  Phone: 40745556895
+  Phone: 321 000 0000
   
-  Email: andrew@gmail.com
+  Email: andrewrb22@gmail.com
 
 
