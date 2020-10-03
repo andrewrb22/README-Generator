@@ -43,17 +43,7 @@ inquirer.prompt([
     message: "List your collaborators by adding their GitHbu URL"
 
 },
-{
-    type: "checkbox",
-    name: "license",
-    message: "which license would you like?",
-    choices: [
-        "https://img.shields.io/aur/license/android-studio",
-        "https://img.shields.io/apm/l/vim-mode?style=flat-square",
-        "https://img.shields.io/eclipse-marketplace/l/notepad4e"
 
-    ]
-},
 {
     type: "input",
     name:"phone",

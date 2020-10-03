@@ -6,13 +6,13 @@ function generateMarkdown(answer) {
 ## Description 
 ${answer.description}
 
-## Technolies used on this Projects
+## Technologies used on this Projects
 
 ${answer.languages}
 
 
 
-## Table of Contents (Optional)
+## Table of Contents
 
 If your README is very long, add a table of contents to make it easy for users to find what they need.
 
@@ -36,10 +36,10 @@ ${answer.credits}
 
 ## License
 
-${answer.license}
+![license](https://img.shields.io/github/license/DAVFoundation/captain-n3m0.svg?style=flat-square)
 
-## Contributing:
-  ###### Contributor Covenant Code of Conduct
+# Contributing:
+  ## Contributor Covenant Code of Conduct
   Our Pledge
   We as members, contributors, and leaders pledge to make participation in our
   community a harassment-free experience for everyone, regardless of age, body
@@ -132,12 +132,15 @@ ${answer.license}
   https://www.contributor-covenant.org/faq. Translations are available at
   https://www.contributor-covenant.org/translations.
 
-  
+
   # Questions:
 
-   For any questions about this project feel free to contact me via:
-  ## Phone: ${answer.phone}
-  ## Email: ${answer.email}
+  ## For any questions about this project feel free to contact me via:
+   
+  
+  Phone: ${answer.phone}
+  
+  Email: ${answer.email}
 
 
 `;
